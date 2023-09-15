@@ -1,0 +1,8 @@
+---
+- name: Test my_own_module
+  hosts: localhost
+  tasks:
+  - name: Testing module
+    my_own_module:
+      path: "/home/ubuntu/test2.txt"
+      content: "Test module"
