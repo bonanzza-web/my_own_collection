@@ -258,7 +258,9 @@ ubuntu@server-1:~/my_own_collection/my_own_namespace/yandex_cloud_elk$
 
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
 
-https://github.com/bonanzza-web/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+[tar.gz](https://github.com/bonanzza-web/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
+
+[Collection](https://github.com/bonanzza-web/my_own_collection/tree/main/my_own_namespace/yandex_cloud_elk)
 
 
 ## Необязательная часть
