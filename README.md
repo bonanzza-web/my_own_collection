@@ -168,7 +168,9 @@ if __name__ == '__main__':
 {"changed": true, "message": "File is created", "invocation": {"module_args": {"path": "/home/ubuntu/test.txt", "content": "Test module"}}}
 
 ```
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/4.png)
 
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/4.1png)
 
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
@@ -191,7 +193,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
 ```
-
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/5.png)
 
 **Шаг 6.** Проверьте через playbook на идемпотентность.
 
@@ -216,11 +218,13 @@ localhost                  : ok=2    changed=0    unreachable=0    failed=0    s
 (venv) ubuntu@server-1:~/ansible$ ^C
 
 ```
-
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/6.png)
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
 **Шаг 8.** Инициализируйте новую collection: `ansible-galaxy collection init my_own_namespace.yandex_cloud_elk`.
+
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/8.png)
 
 **Шаг 9.** В эту collection перенесите свой module в соответствующую директорию.
 
@@ -245,9 +249,17 @@ ubuntu@server-1:~/my_own_collection/my_own_namespace/yandex_cloud_elk$
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
 
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/15.png)
+
+
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
 
+![alt text](https://github.com/bonanzza-web/my_own_collection/blob/main/screens/16.png)
+
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
+
+https://github.com/bonanzza-web/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+
 
 ## Необязательная часть
 
